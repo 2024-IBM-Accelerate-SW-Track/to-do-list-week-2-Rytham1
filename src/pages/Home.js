@@ -16,8 +16,8 @@ class Home extends Component {
   addTodo = (todo) => {
 
     // Find if exists:
-    const exists = false;
-    exists = this.state.todos.find((x) => x.content === todo.content);
+    // const exists = false;
+    const exists = this.state.todos.find((x) => x.content === todo.content);
     if(exists){
       return;
     }else{
